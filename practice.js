@@ -20,7 +20,12 @@ noBtn.addEventListener("mouseenter", () => {
 
 yesBtn.addEventListener("click", () => {
   card.innerHTML = `
-    <h1 style="color:#d62828;">Yay!! ❤️ You made my day 😍</h1>
-    <p style="font-size:20px;">Happy Valentine’s Day 💕</p>
+    <h1 style="color:#d62828;">Yay!! ❤️ Best Decision Ever 😍</h1>
+     <img 
+      src="dancing.webp"
+      alt="Love GIF"
+      class="love-gif"
+    />
+    <p style="font-size:20px;">I love you 💕</p>
   `;
 });
